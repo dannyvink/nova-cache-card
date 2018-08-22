@@ -1,0 +1,32 @@
+{
+    "name": "vink/nova-cache-card",
+    "description": "Manage your application's cache from a handy Laravel Nova dashboard card.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "cache",
+        "file",
+        "redis"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vink\\NovaCacheCard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vink\\NovaCacheCard\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
