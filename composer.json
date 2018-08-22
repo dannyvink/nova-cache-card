@@ -8,19 +8,29 @@
         "file",
         "redis"
     ],
+    "homepage": "https://github.com/dannyvink/nova-cache-card",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Danny Vink",
+            "email": "danny@dannyvink.com",
+            "role": "Developer"
+        }
+    ],
     "license": "MIT",
     "require": {
-        "php": ">=7.1.0"
+        "php": ">=7.1.0",
+        "laravel/nova": "*"
     },
     "autoload": {
         "psr-4": {
-            "Vink\\NovaCacheCard\\": "src/"
+            "Vink\\CacheCard\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vink\\NovaCacheCard\\CardServiceProvider"
+                "Vink\\CacheCard\\CardServiceProvider"
             ]
         }
     },
