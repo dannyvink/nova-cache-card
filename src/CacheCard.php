@@ -13,6 +13,18 @@ class CacheCard extends Card
      * @var string
      */
     public $width = '1/3';
+    
+    /**
+     * Perform any tasks that need to happen when the tool is booted.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        Nova::script('tinker-tool', __DIR__.'/../dist/js/card.js');
+        Nova::style('tinker-tool', __DIR__.'/../dist/css/card.css');
+    }
+
 
     /**
      * Sets the default driver to the card meta.
