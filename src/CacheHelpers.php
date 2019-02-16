@@ -24,7 +24,8 @@ class CacheHelpers {
      * @param int $size
      * @return string
      */
-    public static function sizeInBytesToReadable($size) {
+    public static function sizeInBytesToReadable($size)
+    {
         if ($size < 1024) {
             $size = $size." Bytes";
         } else if ($size < 1048576 && $size > 1023) {
@@ -43,7 +44,8 @@ class CacheHelpers {
      *
      * @return string
      */
-    public static function getFileCacheSize() {
+    public static function getFileCacheSize()
+    {
         $path = config('cache.stores.file.path');
 
         if (config('cache.default') != 'file') return '';
