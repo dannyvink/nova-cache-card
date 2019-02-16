@@ -1,6 +1,6 @@
 <?php
 
-namespace Vink\CacheCard\Http\Controllers;
+namespace Vink\NovaCacheCard\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
