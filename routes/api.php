@@ -1,9 +1,6 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Cache;
-use Vink\CacheCard\CacheHelpers;
 
 /*
 |--------------------------------------------------------------------------
