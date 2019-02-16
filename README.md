@@ -21,7 +21,7 @@ public function cards()
 {
     return [
         // ...
-        new \Vink\CacheCard\CacheCard(),
+        new \Vink\NovaCacheCard\CacheCard(),
     ];
 }
 ```
