@@ -23,13 +23,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Vink\\CacheCard\\": "src/"
+            "Vink\\NovaCacheCard\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vink\\CacheCard\\CardServiceProvider"
+                "Vink\\NovaCacheCard\\CardServiceProvider"
             ]
         }
     },

@@ -1,11 +1,11 @@
 <?php
 
-namespace Vink\CacheCard\Http\Controllers;
+namespace Vink\NovaCacheCard\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Cache;
-use Vink\CacheCard\CacheHelpers;
+use Vink\NovaCacheCard\CacheHelpers;
 
 class CacheCardController extends Controller
 {
