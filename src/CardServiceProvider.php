@@ -1,6 +1,6 @@
 <?php
 
-namespace Vink\CacheCard;
+namespace Vink\NovaCacheCard;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
