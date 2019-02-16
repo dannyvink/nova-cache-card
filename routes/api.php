@@ -12,6 +12,6 @@ use Illuminate\Support\Facades\Route;
 | as many additional routes to this file as your card may require.
 |
 */
-Route::post('/flush', 'Vink\CacheCard\Http\Controllers\CacheCardController@flush');
-Route::post('/cache', 'Vink\CacheCard\Http\Controllers\CacheCardController@forget');
-Route::get('/cache', 'Vink\CacheCard\Http\Controllers\CacheCardController@get');
+Route::post('/flush', 'Vink\NovaCacheCard\Http\Controllers\CacheCardController@flush');
+Route::post('/cache', 'Vink\NovaCacheCard\Http\Controllers\CacheCardController@forget');
+Route::get('/cache', 'Vink\NovaCacheCard\Http\Controllers\CacheCardController@get');
